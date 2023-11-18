@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="page.js"></script>
+     <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js"></script>
+    <title>文件传输</title>
+    
+</head>
+<body>
+    <!-- 文件上传 -->
+    <input type="file" id="fileinput" style="visibility: hidden;">
+    <div id="left">
+        <div class="head">发送</div>
+        <input class="key" id="up_key" placeholder="密钥"></input>
+        <div class="fileInfo" id="fileInfo1"></div>
+        <div class="buttonBox">
+            <button class="button" id="choose" onclick="show()" title="选择文件"></button>
+            <br>
+            <button class="button" id="key" title="生成秘钥"></button>
+            <br>
+            <button class="button" id="send" title="发送文件"></button>
+        </div>
+    </div>
+    <div id="right">
+        <div class="head">接收</div>
+        <input class="key" id="down_key" placeholder="密钥"></input>
+        <div class="fileInfo" id="fileInfo2"></div>
+        <div class="buttonBox">
+            <button class="button" id="receive" title="接收文件"></button>
+            <br>
+            <button class="button" id="download" title="下载文件"></button>
+        </div>
+    </div>
+</body>
+</html>

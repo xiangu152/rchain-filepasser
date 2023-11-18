@@ -1,0 +1,233 @@
+
+body{
+    /* background-color: rgba(0, 0, 0, 0.05); */
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body>div{
+    position: relative;
+    display: inline-block;
+    /* border: solid; */
+    /* background-color: aqua; */
+    width: 550px;
+    height: 420px;
+    top: 125px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+body>#left{
+    right: 120px;
+}
+body>#right{
+    /* left: 30px; */
+    right: 10px;
+}
+.head{
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 100px;
+    height: 30px;
+    background-color:  rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+.key{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: inline-block;
+    /* border: solid; */
+    width: 90%;
+    height: 24px;
+
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+}
+.fileInfo{
+    position: absolute;
+    top: 75px;
+    left: 5%;
+
+    display: inline-block;
+    /* border: solid; */
+    width: 50%;
+    height: 70%;
+
+    background-color: rgba(255, 255, 255, 0.89);
+    border-radius: 5px;
+    word-break: break-all;
+}
+.buttonBox{
+    position: absolute;
+    top: 75px;
+    right: 30px;
+
+    display: inline-block;
+    /* border: solid; */
+    height: 70%;
+    width: 35%;
+
+    /* background-color: rgba(255, 255, 255, 0.9); */
+}
+.button{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button:hover{
+    opacity: 80%;
+}
+#choose{
+    margin-top: 25px;
+    background-image: url(images/choose.png);
+}
+#key{
+    margin-top: 25px;
+    background-image: url(images/key.png);
+}
+#send{
+    margin-top: 25px;
+    background-image: url(images/send.png);
+}
+#receive{
+    margin-top: 45px;
+    background-image: url(images/receive.png);
+}
+#download{
+    margin-top: 55px;
+    background-image: url(images/download.png);
+}
+body{
+    /* background-color: rgba(0, 0, 0, 0.05); */
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body>div{
+    position: relative;
+    display: inline-block;
+    /* border: solid; */
+    /* background-color: aqua; */
+    width: 550px;
+    height: 420px;
+    top: 125px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+body>#left{
+    right: 120px;
+}
+body>#right{
+    /* left: 30px; */
+    right: 10px;
+}
+.head{
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 100px;
+    height: 30px;
+    background-color:  rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+.key{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: inline-block;
+    /* border: solid; */
+    width: 90%;
+    height: 24px;
+
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+}
+.fileInfo{
+    position: absolute;
+    top: 75px;
+    left: 5%;
+
+    display: inline-block;
+    /* border: solid; */
+    width: 50%;
+    height: 70%;
+
+    background-color: rgba(255, 255, 255, 0.89);
+    border-radius: 5px;
+    word-break: break-all;
+}
+.buttonBox{
+    position: absolute;
+    top: 75px;
+    right: 30px;
+
+    display: inline-block;
+    /* border: solid; */
+    height: 70%;
+    width: 35%;
+
+    /* background-color: rgba(255, 255, 255, 0.9); */
+}
+.button{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button:hover{
+    opacity: 80%;
+}
+#choose{
+    margin-top: 25px;
+    background-image: url(images/choose.png);
+}
+#key{
+    margin-top: 25px;
+    background-image: url(images/key.png);
+}
+#send{
+    margin-top: 25px;
+    background-image: url(images/send.png);
+}
+#receive{
+    margin-top: 45px;
+    background-image: url(images/receive.png);
+}
+#download{
+    margin-top: 55px;
+    background-image: url(images/download.png);
+}

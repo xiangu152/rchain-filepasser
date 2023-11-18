@@ -1,0 +1,22 @@
+new message in {
+	contract @{"global_factory"}(getfile, setfile) = {
+		contract getfile(retfile) = {
+           for(file<- message)
+           {
+                retfile!(*file)
+                |
+                message!(*file)
+           }
+		}
+	|
+	contract setfile(file) = {
+        for(msg<-message)
+	{
+				message!(*file)
+		}
+		}
+	}
+	|
+	message!({"file":"123","pwd":"65656","filename":"1.txt"})
+  
+}
